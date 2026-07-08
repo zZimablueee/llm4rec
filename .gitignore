@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# 模型权重 / 检查点
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.npz
+*.npy
+*.ckpt
+*.h5
+checkpoint*/
+output/
+
+# 日志
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+.Trash/
+Thumbs.db
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 数据缓存
+*.pkl
+*.parquet
+
+# 工具生成
+.qoder/
+infer_log.txt
